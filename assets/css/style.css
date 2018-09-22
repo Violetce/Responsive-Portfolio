@@ -1,0 +1,172 @@
+
+
+body {
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    background-image: url("../images/full-bloom.png");
+    background-attachment: fixed;
+
+}
+
+header {
+    height: 43px;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 958px;
+    margin: auto;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    
+  } 
+  
+  header li {
+    float: right;
+    color: #777777;
+    font-size: 15px;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+  } 
+
+header h2 {
+    color: #eeeeee;
+    background-color: #008080;
+    font-size: 18px;
+    padding: 12px;
+    float: left;
+    margin: auto;
+}
+
+header a:link {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+header a:visited {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.form [type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+
+.form_paragraph [type=text] {
+    width: 100%;
+    height: 300px;
+    padding: 12px 20px;
+    margin: 8px 0 10px 0;
+    box-sizing: border-box;
+  
+  }
+
+.container a {
+    padding: 8px;
+    margin: 10px;
+    background-color: #4aaaa5;
+    color: #eeeeee;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.container a:link {
+    color: #eeeeee;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.container a:visited {
+    color: #eeeeee;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.container a:hover {
+    color: #eeeeee;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.title {
+    border-bottom: 1px solid #dddddd;
+}
+
+.title h1 {
+    color: #4aaaa5;
+    font-size: 28px;
+    padding: 2px;
+    text-align: left;
+}
+
+.container {
+    width: 920px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 50px 20px;
+    background-color: #ffffff;
+    overflow: auto;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    color: #777777;
+    position: relative;
+}
+
+.container .profile-image {
+    width: 300px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+
+.portfolio-image {
+   position: relative;
+   text-align: center;
+   color: #eeeeee;
+   width: 300px;
+   float: left;
+   margin: 20px;
+   font-size: 28px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 45px;
+    margin: auto;
+    left: 10px;
+    background-color: #008080;
+    width: 300px;
+}
+
+h3 {
+    font-size: 15px;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
