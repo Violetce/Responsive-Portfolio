@@ -19,14 +19,18 @@ header {
     border-width: 1px;
     
   } 
+header ul {
+    padding: 0px 0px 0px 50px;
+}
   
-  header li {
+header li {
     float: right;
     color: #777777;
     font-size: 15px;
     margin: auto;
     list-style-type: none;
     text-align: center;
+ 
   } 
 
 header h2 {
@@ -36,6 +40,7 @@ header h2 {
     padding: 12px;
     float: left;
     margin: auto;
+    width: 200px;
 }
 
 header a:link {
@@ -170,3 +175,96 @@ h3 {
     padding: 0;
     margin: 0;
 }
+
+@media (min-width: 375px) {
+    .container {
+      max-width: 355px;
+    }
+
+    header {
+        max-width: 373px;
+        position: static;
+        height: 86px;
+
+    }
+
+    header h2 {
+        width: 349px;
+        text-align: center;
+    }
+
+    header li {
+        float: left;
+        margin: 20px, 20px, 20px, 20px; 
+    }
+    header ul {
+        padding: 40px 0px 0px 50px;
+    }
+    
+  }
+
+
+@media (min-width: 640px) {
+    .container {
+      max-width: 620px;
+    }
+    header {
+        max-width: 638px;
+        position: static;
+        height: 86px;
+    }
+    header h2 {
+        width: 615px;
+        text-align: center;
+    }
+    header li {
+        float: left;
+    }
+    header ul {
+        padding: 40px 0px 0px 190px;
+    }
+
+  }
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+    header {
+        max-width: 766px;
+        height: 43px;
+    }
+    header h2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    header li {
+        float: right;
+    }
+    header ul {
+        padding: 0px 0px 0px 50px;
+    }
+  }
+  
+@media (min-width: 980px) {
+    .container {
+      max-width: 960px;
+    }
+    header {
+        max-width: 978px;
+        height: 43px;
+    }
+    header h2 {
+        width: 200px;
+        text-align: center;
+    }
+    header li {
+        float: right;
+    }
+    header ul {
+        padding: 0px 0px 0px 50px;
+    }
+
+  }
+  
